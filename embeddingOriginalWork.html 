@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>embeddingOriginalWork</title>
+    </head>
+    <body>
+        <h1>Level 1.1 A Youtube video: See Level 3.1
+         
+        <h1>Level 1.2 A google Map
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21498.406715743386!2d-122.3059332!3d47.65915185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xca633e34d969e49f!2sUrban+Outfitters!5e0!3m2!1sen!2sus!4v1522398671283" width="600" height="450"></iframe>
+        </div>
+
+        <h1>Level 1.3 One more thing that we did not demo in the workshop
+        <p style="font-size:60%;">A link to HTML tutorial</p>
+        <a href="https://www.w3schools.com/html/" target="_parent" style="font-size:60%;">Visit our HTML tutorial</a>
+
+        <h1>Level 2.1 A Youtube video that plays starting at minute 3: See Level 3.1
+
+        <h1>Level 2.2 A video that plays using the HTML5 video tag: See Level 3.2
+
+        <h1>Level 2.3 Something using the object tag: See Level 3.3
+
+        <h1>Level 3.1 A Youtube video that plays starting at minute 3 and 
+            with captions automatically appear by default (this is a feature I add by myself)
+        </h1>
+        <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/pfM1F0fBTo8?start=180&cc_load_policy=1">
+        </iframe>
+
+        <h1>Level 3.2 A video file that plays using the HTML5 video tag</h1>
+        <video width="480" height="272" controls>
+            <source src="snow.mp4" type="video/mp4">
+        </video> 
+        <div>
+            <h1>A audio file that plays using the HTML5 audio tag</h1>
+            <audio controls>
+            <source src="Season In The Sun.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+        <div>
+            <h1>Level 3.3 Something(a PDF) using the object tag that is not flash</h1>
+            <object data = "InstallInstructions.pdf" width = "50%" height = "500"></object>
+        </div>
+
+        <h1>Level 3.4 An RSS feed displayed</h1>
+        <div id="widgetmain" style="text-align:left;overflow-y:auto;overflow-x:hidden;width:700px;background-color:#transparent; border:0px solid #333333;"><div id="rsswidget" style="height:500px;"><iframe src="http://us1.rssfeedwidget.com/getrss.php?time=1522401997936&amp;x=http%3A%2F%2Frss.news.yahoo.com%2Frss%2Ftopstories&amp;w=700&amp;h=500&amp;bc=333333&amp;bw=0&amp;bgc=transparent&amp;m=20&amp;it=true&amp;t=(default)&amp;tc=333333&amp;ts=15&amp;tb=transparent&amp;il=true&amp;lc=0000FF&amp;ls=14&amp;lb=false&amp;id=true&amp;dc=333333&amp;ds=14&amp;idt=true&amp;dtc=284F2D&amp;dts=12" border="0" hspace="0" vspace="0" frameborder="no" marginwidth="0" marginheight="0" style="border:0; padding:0; margin:0; width:700px; height:500px;" id="rssOutput">Reading RSS Feed ...</iframe></div><div style="text-align:right;margin-bottom:0;border-top:0px solid #333333;" id="widgetbottom"><span style="font-size:70%"><a href="http://www.rssfeedwidget.com">rss feed widget</a>&nbsp;</span><br></div></div>   
+    </body>
+</html>
